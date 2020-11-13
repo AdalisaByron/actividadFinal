@@ -237,6 +237,10 @@ footer h2{
     color: rgb(236, 236, 236);
 }
 
+footer p{
+    color: rgb(236, 236, 236);
+}
+
 footer .contenedor::after{
     content: "";
     display: block;
@@ -294,7 +298,20 @@ fieldset{
     background-color: rgb(251, 251, 223);
 }
 
+body.materias{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    float: left;
+    padding-right: 30px;
+    background-color: rgb(251, 251, 223);
+}
 
+h2.materias{
+    text-align: center;
+    padding: 40px 0;
+    text-transform: uppercase; 
+}
 
 
 
